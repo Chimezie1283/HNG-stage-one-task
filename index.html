@@ -1,54 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HNG page</title>
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!-- custom css -->
-    <link rel="stylesheet" href="./page.css">
-
-</head>
-<body>
-    <a href="#" class="logo" data-testid="slackUserName"><p class="color1">Enligthen0147</p></a>
-
-    </header>
-
-    <!-- Home Section design -->
-    <section class="home" id="home">
-        <div class="home-content">
-
-            <img src="images/IMG_4426FFF.jpg" alt="My Slack Image" data-testid="slackDisplayImage">
-
-
-                <p class="day" data-testid="currentDayOfTheWeek"></p>
-                <p class="time" data-testid="currentUTCTime"></p>
-            
-
-            <h3><span class="color1">Hello,</span> I'm</h3>
-            <h1 class="color">AGBO, Chimezie.</h1>
-            <h3>Track :<span class="multiple-text"></span data-testid="myTrack"> Frontend Developer <span class="gray"></span><span class="green"> Nig</span>e<span class="green">ria</span></h3>
-            <div class="social-media">
-                <a href="https://github.com/Chimezie1283/HNG-stage-one-task.git" target="_blank" data-testid=“https://github.com/Chimezie1283/HNG-stage-one-task.git” class="git">GitHub link</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FRONTEND - STAGE ONE TASK</title>
+        <link rel="stylesheet" href="page.css">
+        <script src="page.js" defer></script>
+    </head>
+    <body>
+        <div class="imgtxts">
+            <div class="texts">
+                <p class="username" data-testid="slackUserName">Enlighten0147</p>
+                <img class="image" src="./images/IMG_4426FFF.jpg" alt="Enlighten0147" data-testid="slackDisplayImage">
+            </div>
+            <div class="text2">
+                <p data-testid="currentDayOfTheWeek">Monday</p>
+                <p data-testid="currentUTCTime" id="time">12:00 PM UTC</p>
+                <p data-testid="myTrack">Frontend</p>
+                <a href="https://github.com/Chimezie1283/HNG-stage-one-task.git" target="_blank" data-testid="githubURL">GitHub Repository</a>
             </div>
         </div>
 
-        <div class="home-img">
-            
-
-            
-        </div>
-    </section>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-
-    <!-- Typed JS -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-    <!-- custom javascript -->
-    <script src="page.js"></script>
-</body>
+    </body>
 </html>
